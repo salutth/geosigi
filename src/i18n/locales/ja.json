@@ -1,0 +1,80 @@
+{
+  "app": {
+    "name": "Geosigi",
+    "slogan": "一緒に行けばわかること"
+  },
+  "tabs": {
+    "settle": "ホーム",
+    "trust": "信頼",
+    "do": "参加",
+    "people": "人々",
+    "story": "物語"
+  },
+  "settle": {
+    "title": "ホーム",
+    "subtitle": "韓国定住ガイド",
+    "categories": {
+      "housing": "住居",
+      "essentials": "生活必需品",
+      "transport": "交通",
+      "hospital": "病院",
+      "legal": "法律·ビザ",
+      "manners": "マナー·文化"
+    },
+    "chatbot": "AIチャットボット",
+    "chatPlaceholder": "何でも聞いてください..."
+  },
+  "trust": {
+    "title": "信頼",
+    "subtitle": "公式認証情報",
+    "verified": "公式認証",
+    "reportScam": "1345に通報",
+    "warning": "不正情報に注意"
+  },
+  "do": {
+    "title": "参加",
+    "subtitle": "市民科学ミッション",
+    "missions": "進行中のミッション",
+    "waterQuality": "水質測定",
+    "speciesObserve": "生物観察",
+    "completed": "完了済み",
+    "join": "参加する"
+  },
+  "people": {
+    "title": "人々",
+    "subtitle": "地域コミュニティ",
+    "groups": "コミュニティ",
+    "chat": "翻訳チャット",
+    "nearby": "近くの活動"
+  },
+  "story": {
+    "title": "物語",
+    "subtitle": "活動記録",
+    "myActivities": "私の活動",
+    "createStory": "ストーリー作成",
+    "share": "共有"
+  },
+  "common": {
+    "loading": "読み込み中...",
+    "error": "エラーが発生しました",
+    "retry": "再試行",
+    "back": "戻る",
+    "save": "保存",
+    "cancel": "キャンセル",
+    "confirm": "確認",
+    "language": "言語",
+    "login": "ログイン",
+    "signup": "新規登録",
+    "logout": "ログアウト"
+  },
+  "consent": {
+    "title": "個人情報の収集・利用に同意",
+    "required": "必須同意",
+    "optional": "任意同意",
+    "nationality": "国籍情報の収集に同意します",
+    "language": "言語情報の収集に同意します",
+    "interest": "興味情報の収集に同意します",
+    "privacyPolicy": "プライバシーポリシーを見る",
+    "agree": "同意して始める"
+  }
+}

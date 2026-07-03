@@ -1,0 +1,80 @@
+{
+  "app": {
+    "name": "Geosigi",
+    "slogan": "Cứ đi cùng rồi sẽ hiểu thôi"
+  },
+  "tabs": {
+    "settle": "Trang chủ",
+    "trust": "Tin cậy",
+    "do": "Tham gia",
+    "people": "Mọi người",
+    "story": "Câu chuyện"
+  },
+  "settle": {
+    "title": "Trang chủ",
+    "subtitle": "Hướng dẫn định cư tại Hàn Quốc",
+    "categories": {
+      "housing": "Nhà ở",
+      "essentials": "Nhu yếu phẩm",
+      "transport": "Giao thông",
+      "hospital": "Bệnh viện",
+      "legal": "Pháp luật·Visa",
+      "manners": "Phong tục·Văn hóa"
+    },
+    "chatbot": "Hỏi AI Chatbot",
+    "chatPlaceholder": "Bạn muốn hỏi gì..."
+  },
+  "trust": {
+    "title": "Tin cậy",
+    "subtitle": "Thông tin được xác minh",
+    "verified": "Đã xác minh",
+    "reportScam": "Gọi 1345 báo cáo",
+    "warning": "Cảnh báo lừa đảo"
+  },
+  "do": {
+    "title": "Tham gia",
+    "subtitle": "Nhiệm vụ khoa học công dân",
+    "missions": "Nhiệm vụ đang diễn ra",
+    "waterQuality": "Đo chất lượng nước",
+    "speciesObserve": "Quan sát sinh vật",
+    "completed": "Đã hoàn thành",
+    "join": "Tham gia"
+  },
+  "people": {
+    "title": "Mọi người",
+    "subtitle": "Kết nối cộng đồng",
+    "groups": "Nhóm cộng đồng",
+    "chat": "Chat phiên dịch",
+    "nearby": "Hoạt động gần đây"
+  },
+  "story": {
+    "title": "Câu chuyện",
+    "subtitle": "Nhật ký hoạt động",
+    "myActivities": "Hoạt động của tôi",
+    "createStory": "Tạo câu chuyện",
+    "share": "Chia sẻ"
+  },
+  "common": {
+    "loading": "Đang tải...",
+    "error": "Đã xảy ra lỗi",
+    "retry": "Thử lại",
+    "back": "Quay lại",
+    "save": "Lưu",
+    "cancel": "Hủy",
+    "confirm": "Xác nhận",
+    "language": "Ngôn ngữ",
+    "login": "Đăng nhập",
+    "signup": "Đăng ký",
+    "logout": "Đăng xuất"
+  },
+  "consent": {
+    "title": "Đồng ý thu thập thông tin cá nhân",
+    "required": "Bắt buộc",
+    "optional": "Tùy chọn",
+    "nationality": "Tôi đồng ý chia sẻ quốc tịch",
+    "language": "Tôi đồng ý chia sẻ ngôn ngữ",
+    "interest": "Tôi đồng ý chia sẻ sở thích",
+    "privacyPolicy": "Xem chính sách bảo mật",
+    "agree": "Đồng ý và bắt đầu"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "app": {
+    "name": "Geosigi",
+    "slogan": "Something you will understand when you get there"
+  },
+  "tabs": {
+    "settle": "Home",
+    "trust": "Trust",
+    "do": "Do",
+    "people": "People",
+    "story": "Story"
+  },
+  "settle": {
+    "title": "Home",
+    "subtitle": "Settlement Guide for Korea",
+    "categories": {
+      "housing": "Housing",
+      "essentials": "Essentials",
+      "transport": "Transport",
+      "hospital": "Hospital",
+      "legal": "Legal & Visa",
+      "manners": "Etiquette"
+    },
+    "chatbot": "Ask AI Chatbot",
+    "chatPlaceholder": "Ask anything about settling in Korea..."
+  },
+  "trust": {
+    "title": "Trust",
+    "subtitle": "Verified Official Information",
+    "verified": "Officially Verified",
+    "reportScam": "Report to 1345",
+    "warning": "Scam Alert"
+  },
+  "do": {
+    "title": "Do",
+    "subtitle": "Citizen Science Missions",
+    "missions": "Active Missions",
+    "waterQuality": "Water Quality",
+    "speciesObserve": "Species Observation",
+    "completed": "Completed",
+    "join": "Join"
+  },
+  "people": {
+    "title": "People",
+    "subtitle": "Community Connections",
+    "groups": "Community Groups",
+    "chat": "Translated Chat",
+    "nearby": "Nearby Activities"
+  },
+  "story": {
+    "title": "Story",
+    "subtitle": "Activity Records",
+    "myActivities": "My Activities",
+    "createStory": "Create Story",
+    "share": "Share"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Retry",
+    "back": "Back",
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "language": "Language",
+    "login": "Log In",
+    "signup": "Sign Up",
+    "logout": "Log Out"
+  },
+  "consent": {
+    "title": "Privacy Consent",
+    "required": "Required",
+    "optional": "Optional",
+    "nationality": "I agree to share my nationality",
+    "language": "I agree to share my language preferences",
+    "interest": "I agree to share my interests",
+    "privacyPolicy": "View Privacy Policy",
+    "agree": "Agree & Start"
+  }
+}

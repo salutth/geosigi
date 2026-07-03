@@ -1,0 +1,80 @@
+{
+  "app": {
+    "name": "거시기",
+    "slogan": "뭔지는 모르겠는데, 같이 가면 알게 되는 것"
+  },
+  "tabs": {
+    "settle": "첫번째집",
+    "trust": "믿을수있어",
+    "do": "같이해요",
+    "people": "사람들",
+    "story": "내이야기"
+  },
+  "settle": {
+    "title": "첫번째집",
+    "subtitle": "한국 정착 가이드",
+    "categories": {
+      "housing": "주거",
+      "essentials": "생필품",
+      "transport": "교통",
+      "hospital": "병원",
+      "legal": "법률·비자",
+      "manners": "예의·문화"
+    },
+    "chatbot": "AI 챗봇에 물어보기",
+    "chatPlaceholder": "궁금한 것을 물어보세요..."
+  },
+  "trust": {
+    "title": "믿을수있어",
+    "subtitle": "공신력 기관 인증 정보",
+    "verified": "공인 인증",
+    "reportScam": "1345 신고하기",
+    "warning": "불법 정보 주의"
+  },
+  "do": {
+    "title": "같이해요",
+    "subtitle": "시민과학 미션",
+    "missions": "진행 중인 미션",
+    "waterQuality": "수질 측정",
+    "speciesObserve": "생물 관찰",
+    "completed": "완료한 미션",
+    "join": "참여하기"
+  },
+  "people": {
+    "title": "사람들",
+    "subtitle": "지역사회 연결",
+    "groups": "시민 모임",
+    "chat": "번역 채팅",
+    "nearby": "근처 활동"
+  },
+  "story": {
+    "title": "내이야기",
+    "subtitle": "활동 기록",
+    "myActivities": "나의 활동",
+    "createStory": "스토리 만들기",
+    "share": "공유하기"
+  },
+  "common": {
+    "loading": "불러오는 중...",
+    "error": "오류가 발생했습니다",
+    "retry": "다시 시도",
+    "back": "뒤로",
+    "save": "저장",
+    "cancel": "취소",
+    "confirm": "확인",
+    "language": "언어",
+    "login": "로그인",
+    "signup": "회원가입",
+    "logout": "로그아웃"
+  },
+  "consent": {
+    "title": "개인정보 수집·이용 동의",
+    "required": "필수 동의 항목",
+    "optional": "선택 동의 항목",
+    "nationality": "국적 정보 수집에 동의합니다",
+    "language": "사용 언어 정보 수집에 동의합니다",
+    "interest": "관심사 정보 수집에 동의합니다",
+    "privacyPolicy": "개인정보처리방침 보기",
+    "agree": "동의하고 시작하기"
+  }
+}

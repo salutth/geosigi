@@ -1,0 +1,80 @@
+{
+  "app": {
+    "name": "Geosigi",
+    "slogan": "Si vamos juntos lo entenderemos"
+  },
+  "tabs": {
+    "settle": "Inicio",
+    "trust": "Confianza",
+    "do": "Hacer",
+    "people": "Personas",
+    "story": "Historia"
+  },
+  "settle": {
+    "title": "Inicio",
+    "subtitle": "Guía de establecimiento en Corea",
+    "categories": {
+      "housing": "Vivienda",
+      "essentials": "Esenciales",
+      "transport": "Transporte",
+      "hospital": "Hospital",
+      "legal": "Legal y Visa",
+      "manners": "Etiqueta y Cultura"
+    },
+    "chatbot": "Chatbot IA",
+    "chatPlaceholder": "Pregunta lo que quieras..."
+  },
+  "trust": {
+    "title": "Confianza",
+    "subtitle": "Información oficial verificada",
+    "verified": "Verificado oficialmente",
+    "reportScam": "Reportar al 1345",
+    "warning": "Alerta de estafa"
+  },
+  "do": {
+    "title": "Hacer",
+    "subtitle": "Misiones de ciencia ciudadana",
+    "missions": "Misiones activas",
+    "waterQuality": "Calidad del agua",
+    "speciesObserve": "Observación de especies",
+    "completed": "Completadas",
+    "join": "Participar"
+  },
+  "people": {
+    "title": "Personas",
+    "subtitle": "Conexiones comunitarias",
+    "groups": "Grupos comunitarios",
+    "chat": "Chat traducido",
+    "nearby": "Actividades cercanas"
+  },
+  "story": {
+    "title": "Historia",
+    "subtitle": "Registro de actividades",
+    "myActivities": "Mis actividades",
+    "createStory": "Crear historia",
+    "share": "Compartir"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Ocurrió un error",
+    "retry": "Reintentar",
+    "back": "Atrás",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "language": "Idioma",
+    "login": "Iniciar sesión",
+    "signup": "Registrarse",
+    "logout": "Cerrar sesión"
+  },
+  "consent": {
+    "title": "Consentimiento de privacidad",
+    "required": "Obligatorio",
+    "optional": "Opcional",
+    "nationality": "Acepto compartir mi nacionalidad",
+    "language": "Acepto compartir mis idiomas",
+    "interest": "Acepto compartir mis intereses",
+    "privacyPolicy": "Ver política de privacidad",
+    "agree": "Aceptar y comenzar"
+  }
+}

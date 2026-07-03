@@ -1,0 +1,80 @@
+{
+  "app": {
+    "name": "Geosigi",
+    "slogan": "不知道是什么，但一起去就会明白"
+  },
+  "tabs": {
+    "settle": "首页",
+    "trust": "信任",
+    "do": "参与",
+    "people": "认识",
+    "story": "故事"
+  },
+  "settle": {
+    "title": "首页",
+    "subtitle": "韩国定居指南",
+    "categories": {
+      "housing": "住房",
+      "essentials": "生活用品",
+      "transport": "交通",
+      "hospital": "医院",
+      "legal": "法律·签证",
+      "manners": "礼仪·文化"
+    },
+    "chatbot": "AI 聊天机器人",
+    "chatPlaceholder": "有什么想问的..."
+  },
+  "trust": {
+    "title": "信任",
+    "subtitle": "官方认证信息",
+    "verified": "官方认证",
+    "reportScam": "拨打1345举报",
+    "warning": "警惕非法信息"
+  },
+  "do": {
+    "title": "参与",
+    "subtitle": "公民科学任务",
+    "missions": "进行中的任务",
+    "waterQuality": "水质测量",
+    "speciesObserve": "生物观察",
+    "completed": "已完成",
+    "join": "参加"
+  },
+  "people": {
+    "title": "认识",
+    "subtitle": "社区连接",
+    "groups": "社区团体",
+    "chat": "翻译聊天",
+    "nearby": "附近活动"
+  },
+  "story": {
+    "title": "故事",
+    "subtitle": "活动记录",
+    "myActivities": "我的活动",
+    "createStory": "创建故事",
+    "share": "分享"
+  },
+  "common": {
+    "loading": "加载中...",
+    "error": "发生错误",
+    "retry": "重试",
+    "back": "返回",
+    "save": "保存",
+    "cancel": "取消",
+    "confirm": "确认",
+    "language": "语言",
+    "login": "登录",
+    "signup": "注册",
+    "logout": "退出"
+  },
+  "consent": {
+    "title": "个人信息收集·使用同意",
+    "required": "必需同意",
+    "optional": "可选同意",
+    "nationality": "同意收集国籍信息",
+    "language": "同意收集语言信息",
+    "interest": "同意收集兴趣信息",
+    "privacyPolicy": "查看隐私政策",
+    "agree": "同意并开始"
+  }
+}
