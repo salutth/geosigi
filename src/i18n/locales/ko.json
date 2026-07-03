@@ -38,7 +38,8 @@
     "waterQuality": "수질 측정",
     "speciesObserve": "생물 관찰",
     "completed": "완료한 미션",
-    "join": "참여하기"
+    "join": "참여하기",
+    "recentData": "최신 수질 데이터"
   },
   "people": {
     "title": "사람들",
@@ -56,6 +57,7 @@
   },
   "common": {
     "loading": "불러오는 중...",
+    "noData": "데이터가 없습니다",
     "error": "오류가 발생했습니다",
     "retry": "다시 시도",
     "back": "뒤로",

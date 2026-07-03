@@ -38,7 +38,8 @@
     "waterQuality": "水質測定",
     "speciesObserve": "生物観察",
     "completed": "完了済み",
-    "join": "参加する"
+    "join": "参加する",
+    "recentData": "最新水質データ"
   },
   "people": {
     "title": "人々",
@@ -56,6 +57,7 @@
   },
   "common": {
     "loading": "読み込み中...",
+    "noData": "データがありません",
     "error": "エラーが発生しました",
     "retry": "再試行",
     "back": "戻る",

@@ -38,7 +38,8 @@
     "waterQuality": "水质测量",
     "speciesObserve": "生物观察",
     "completed": "已完成",
-    "join": "参加"
+    "join": "参加",
+    "recentData": "最新水质数据"
   },
   "people": {
     "title": "认识",
@@ -56,6 +57,7 @@
   },
   "common": {
     "loading": "加载中...",
+    "noData": "暂无数据",
     "error": "发生错误",
     "retry": "重试",
     "back": "返回",

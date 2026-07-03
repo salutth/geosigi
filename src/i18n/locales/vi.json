@@ -38,7 +38,8 @@
     "waterQuality": "Đo chất lượng nước",
     "speciesObserve": "Quan sát sinh vật",
     "completed": "Đã hoàn thành",
-    "join": "Tham gia"
+    "join": "Tham gia",
+    "recentData": "Dữ liệu nước mới nhất"
   },
   "people": {
     "title": "Mọi người",
@@ -56,6 +57,7 @@
   },
   "common": {
     "loading": "Đang tải...",
+    "noData": "Không có dữ liệu",
     "error": "Đã xảy ra lỗi",
     "retry": "Thử lại",
     "back": "Quay lại",

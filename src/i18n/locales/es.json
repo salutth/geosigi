@@ -38,7 +38,8 @@
     "waterQuality": "Calidad del agua",
     "speciesObserve": "Observación de especies",
     "completed": "Completadas",
-    "join": "Participar"
+    "join": "Participar",
+    "recentData": "Datos de agua recientes"
   },
   "people": {
     "title": "Personas",
@@ -56,6 +57,7 @@
   },
   "common": {
     "loading": "Cargando...",
+    "noData": "Sin datos disponibles",
     "error": "Ocurrió un error",
     "retry": "Reintentar",
     "back": "Atrás",
