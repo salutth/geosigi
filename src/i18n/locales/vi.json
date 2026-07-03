@@ -1,82 +1,82 @@
 {
   "app": {
-    "name": "Geosigi",
-    "slogan": "Cứ đi cùng rồi sẽ hiểu thôi"
+    "name": "거시기 Geosigi",
+    "slogan": "뭔지는 모르겠는데, 같이 가면 알게 되는 것 — Cứ đi cùng rồi sẽ hiểu thôi"
   },
   "tabs": {
-    "settle": "Trang chủ",
-    "trust": "Tin cậy",
-    "do": "Tham gia",
-    "people": "Mọi người",
-    "story": "Câu chuyện"
+    "settle": "첫번째집 Trang chủ",
+    "trust": "믿을수있어 Tin cậy",
+    "do": "같이해요 Tham gia",
+    "people": "사람들 Mọi người",
+    "story": "내이야기 Câu chuyện"
   },
   "settle": {
-    "title": "Trang chủ",
+    "title": "첫번째집 Trang chủ",
     "subtitle": "Hướng dẫn định cư tại Hàn Quốc",
     "categories": {
-      "housing": "Nhà ở",
-      "essentials": "Nhu yếu phẩm",
-      "transport": "Giao thông",
-      "hospital": "Bệnh viện",
-      "legal": "Pháp luật·Visa",
-      "manners": "Phong tục·Văn hóa"
+      "housing": "주거 Nhà ở",
+      "essentials": "생필품 Nhu yếu phẩm",
+      "transport": "교통 Giao thông",
+      "hospital": "병원 Bệnh viện",
+      "legal": "법률·비자 Pháp luật·Visa",
+      "manners": "예의·문화 Phong tục·Văn hóa"
     },
-    "chatbot": "Hỏi AI Chatbot",
+    "chatbot": "AI 챗봇 Hỏi AI Chatbot",
     "chatPlaceholder": "Bạn muốn hỏi gì..."
   },
   "trust": {
-    "title": "Tin cậy",
+    "title": "믿을수있어 Tin cậy",
     "subtitle": "Thông tin được xác minh",
-    "verified": "Đã xác minh",
-    "reportScam": "Gọi 1345 báo cáo",
-    "warning": "Cảnh báo lừa đảo"
+    "verified": "공인 인증 Đã xác minh",
+    "reportScam": "1345 신고 Báo cáo",
+    "warning": "불법 정보 주의 Cảnh báo lừa đảo"
   },
   "do": {
-    "title": "Tham gia",
+    "title": "같이해요 Tham gia",
     "subtitle": "Nhiệm vụ khoa học công dân",
-    "missions": "Nhiệm vụ đang diễn ra",
-    "waterQuality": "Đo chất lượng nước",
-    "speciesObserve": "Quan sát sinh vật",
-    "completed": "Đã hoàn thành",
-    "join": "Tham gia",
-    "recentData": "Dữ liệu nước mới nhất"
+    "missions": "진행 중인 미션 Nhiệm vụ đang diễn ra",
+    "waterQuality": "수질 측정 Đo chất lượng nước",
+    "speciesObserve": "생물 관찰 Quan sát sinh vật",
+    "completed": "완료 Đã hoàn thành",
+    "join": "참여하기 Tham gia",
+    "recentData": "최신 수질 데이터 Dữ liệu nước mới nhất"
   },
   "people": {
-    "title": "Mọi người",
+    "title": "사람들 Mọi người",
     "subtitle": "Kết nối cộng đồng",
-    "groups": "Nhóm cộng đồng",
-    "chat": "Chat phiên dịch",
-    "nearby": "Hoạt động gần đây"
+    "groups": "시민 모임 Nhóm cộng đồng",
+    "chat": "번역 채팅 Chat phiên dịch",
+    "nearby": "근처 활동 Hoạt động gần đây"
   },
   "story": {
-    "title": "Câu chuyện",
+    "title": "내이야기 Câu chuyện",
     "subtitle": "Nhật ký hoạt động",
-    "myActivities": "Hoạt động của tôi",
-    "createStory": "Tạo câu chuyện",
-    "share": "Chia sẻ"
+    "myActivities": "나의 활동 Hoạt động của tôi",
+    "createStory": "스토리 만들기 Tạo câu chuyện",
+    "share": "공유 Chia sẻ"
   },
   "common": {
     "loading": "Đang tải...",
     "noData": "Không có dữ liệu",
     "error": "Đã xảy ra lỗi",
-    "retry": "Thử lại",
-    "back": "Quay lại",
-    "save": "Lưu",
-    "cancel": "Hủy",
-    "confirm": "Xác nhận",
-    "language": "Ngôn ngữ",
-    "login": "Đăng nhập",
-    "signup": "Đăng ký",
-    "logout": "Đăng xuất"
+    "retry": "다시 Thử lại",
+    "back": "뒤로 Quay lại",
+    "save": "저장 Lưu",
+    "cancel": "취소 Hủy",
+    "confirm": "확인 Xác nhận",
+    "language": "언어 Ngôn ngữ",
+    "login": "로그인 Đăng nhập",
+    "signup": "회원가입 Đăng ký",
+    "logout": "로그아웃 Đăng xuất"
   },
   "consent": {
-    "title": "Đồng ý thu thập thông tin cá nhân",
-    "required": "Bắt buộc",
-    "optional": "Tùy chọn",
+    "title": "개인정보 수집·이용 동의 Đồng ý thu thập thông tin",
+    "required": "필수 Bắt buộc",
+    "optional": "선택 Tùy chọn",
     "nationality": "Tôi đồng ý chia sẻ quốc tịch",
     "language": "Tôi đồng ý chia sẻ ngôn ngữ",
     "interest": "Tôi đồng ý chia sẻ sở thích",
-    "privacyPolicy": "Xem chính sách bảo mật",
-    "agree": "Đồng ý và bắt đầu"
+    "privacyPolicy": "개인정보처리방침 Chính sách bảo mật",
+    "agree": "동의하고 시작 Đồng ý và bắt đầu"
   }
 }

@@ -1,82 +1,82 @@
 {
   "app": {
-    "name": "Geosigi",
-    "slogan": "Si vamos juntos lo entenderemos"
+    "name": "거시기 Geosigi",
+    "slogan": "뭔지는 모르겠는데, 같이 가면 알게 되는 것 — Si vamos juntos lo entenderemos"
   },
   "tabs": {
-    "settle": "Inicio",
-    "trust": "Confianza",
-    "do": "Hacer",
-    "people": "Personas",
-    "story": "Historia"
+    "settle": "첫번째집 Inicio",
+    "trust": "믿을수있어 Confianza",
+    "do": "같이해요 Hacer",
+    "people": "사람들 Personas",
+    "story": "내이야기 Historia"
   },
   "settle": {
-    "title": "Inicio",
+    "title": "첫번째집 Inicio",
     "subtitle": "Guía de establecimiento en Corea",
     "categories": {
-      "housing": "Vivienda",
-      "essentials": "Esenciales",
-      "transport": "Transporte",
-      "hospital": "Hospital",
-      "legal": "Legal y Visa",
-      "manners": "Etiqueta y Cultura"
+      "housing": "주거 Vivienda",
+      "essentials": "생필품 Esenciales",
+      "transport": "교통 Transporte",
+      "hospital": "병원 Hospital",
+      "legal": "법률·비자 Legal y Visa",
+      "manners": "예의·문화 Etiqueta y Cultura"
     },
-    "chatbot": "Chatbot IA",
+    "chatbot": "AI 챗봇 Chatbot IA",
     "chatPlaceholder": "Pregunta lo que quieras..."
   },
   "trust": {
-    "title": "Confianza",
+    "title": "믿을수있어 Confianza",
     "subtitle": "Información oficial verificada",
-    "verified": "Verificado oficialmente",
-    "reportScam": "Reportar al 1345",
-    "warning": "Alerta de estafa"
+    "verified": "공인 인증 Verificado",
+    "reportScam": "1345 신고 Reportar",
+    "warning": "불법 정보 주의 Alerta de estafa"
   },
   "do": {
-    "title": "Hacer",
+    "title": "같이해요 Hacer",
     "subtitle": "Misiones de ciencia ciudadana",
-    "missions": "Misiones activas",
-    "waterQuality": "Calidad del agua",
-    "speciesObserve": "Observación de especies",
-    "completed": "Completadas",
-    "join": "Participar",
-    "recentData": "Datos de agua recientes"
+    "missions": "진행 중인 미션 Misiones activas",
+    "waterQuality": "수질 측정 Calidad del agua",
+    "speciesObserve": "생물 관찰 Observación de especies",
+    "completed": "완료 Completadas",
+    "join": "참여하기 Participar",
+    "recentData": "최신 수질 데이터 Datos de agua recientes"
   },
   "people": {
-    "title": "Personas",
+    "title": "사람들 Personas",
     "subtitle": "Conexiones comunitarias",
-    "groups": "Grupos comunitarios",
-    "chat": "Chat traducido",
-    "nearby": "Actividades cercanas"
+    "groups": "시민 모임 Grupos comunitarios",
+    "chat": "번역 채팅 Chat traducido",
+    "nearby": "근처 활동 Actividades cercanas"
   },
   "story": {
-    "title": "Historia",
+    "title": "내이야기 Historia",
     "subtitle": "Registro de actividades",
-    "myActivities": "Mis actividades",
-    "createStory": "Crear historia",
-    "share": "Compartir"
+    "myActivities": "나의 활동 Mis actividades",
+    "createStory": "스토리 만들기 Crear historia",
+    "share": "공유 Compartir"
   },
   "common": {
     "loading": "Cargando...",
     "noData": "Sin datos disponibles",
     "error": "Ocurrió un error",
-    "retry": "Reintentar",
-    "back": "Atrás",
-    "save": "Guardar",
-    "cancel": "Cancelar",
-    "confirm": "Confirmar",
-    "language": "Idioma",
-    "login": "Iniciar sesión",
-    "signup": "Registrarse",
-    "logout": "Cerrar sesión"
+    "retry": "다시 Reintentar",
+    "back": "뒤로 Atrás",
+    "save": "저장 Guardar",
+    "cancel": "취소 Cancelar",
+    "confirm": "확인 Confirmar",
+    "language": "언어 Idioma",
+    "login": "로그인 Iniciar sesión",
+    "signup": "회원가입 Registrarse",
+    "logout": "로그아웃 Cerrar sesión"
   },
   "consent": {
-    "title": "Consentimiento de privacidad",
-    "required": "Obligatorio",
-    "optional": "Opcional",
+    "title": "개인정보 수집·이용 동의 Consentimiento de privacidad",
+    "required": "필수 Obligatorio",
+    "optional": "선택 Opcional",
     "nationality": "Acepto compartir mi nacionalidad",
     "language": "Acepto compartir mis idiomas",
     "interest": "Acepto compartir mis intereses",
-    "privacyPolicy": "Ver política de privacidad",
-    "agree": "Aceptar y comenzar"
+    "privacyPolicy": "개인정보처리방침 Política de privacidad",
+    "agree": "동의하고 시작 Aceptar y comenzar"
   }
 }

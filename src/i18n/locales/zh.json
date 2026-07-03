@@ -1,82 +1,82 @@
 {
   "app": {
-    "name": "Geosigi",
-    "slogan": "不知道是什么，但一起去就会明白"
+    "name": "거시기 Geosigi",
+    "slogan": "뭔지는 모르겠는데, 같이 가면 알게 되는 것 — 不知道是什么，但一起去就会明白"
   },
   "tabs": {
-    "settle": "首页",
-    "trust": "信任",
-    "do": "参与",
-    "people": "认识",
-    "story": "故事"
+    "settle": "첫번째집 首页",
+    "trust": "믿을수있어 信任",
+    "do": "같이해요 参与",
+    "people": "사람들 认识",
+    "story": "내이야기 故事"
   },
   "settle": {
-    "title": "首页",
+    "title": "첫번째집 首页",
     "subtitle": "韩国定居指南",
     "categories": {
-      "housing": "住房",
-      "essentials": "生活用品",
-      "transport": "交通",
-      "hospital": "医院",
-      "legal": "法律·签证",
-      "manners": "礼仪·文化"
+      "housing": "주거 住房",
+      "essentials": "생필품 生活用品",
+      "transport": "교통 交通",
+      "hospital": "병원 医院",
+      "legal": "법률·비자 法律·签证",
+      "manners": "예의·문화 礼仪·文化"
     },
-    "chatbot": "AI 聊天机器人",
+    "chatbot": "AI 챗봇 聊天机器人",
     "chatPlaceholder": "有什么想问的..."
   },
   "trust": {
-    "title": "信任",
+    "title": "믿을수있어 信任",
     "subtitle": "官方认证信息",
-    "verified": "官方认证",
-    "reportScam": "拨打1345举报",
-    "warning": "警惕非法信息"
+    "verified": "공인 인증 官方认证",
+    "reportScam": "1345 신고 举报",
+    "warning": "불법 정보 주의 警惕非法信息"
   },
   "do": {
-    "title": "参与",
+    "title": "같이해요 参与",
     "subtitle": "公民科学任务",
-    "missions": "进行中的任务",
-    "waterQuality": "水质测量",
-    "speciesObserve": "生物观察",
-    "completed": "已完成",
-    "join": "参加",
-    "recentData": "最新水质数据"
+    "missions": "진행 중인 미션 进行中的任务",
+    "waterQuality": "수질 측정 水质测量",
+    "speciesObserve": "생물 관찰 生物观察",
+    "completed": "완료 已完成",
+    "join": "참여하기 参加",
+    "recentData": "최신 수질 데이터 最新水质数据"
   },
   "people": {
-    "title": "认识",
+    "title": "사람들 认识",
     "subtitle": "社区连接",
-    "groups": "社区团体",
-    "chat": "翻译聊天",
-    "nearby": "附近活动"
+    "groups": "시민 모임 社区团体",
+    "chat": "번역 채팅 翻译聊天",
+    "nearby": "근처 활동 附近活动"
   },
   "story": {
-    "title": "故事",
+    "title": "내이야기 故事",
     "subtitle": "活动记录",
-    "myActivities": "我的活动",
-    "createStory": "创建故事",
-    "share": "分享"
+    "myActivities": "나의 활동 我的活动",
+    "createStory": "스토리 만들기 创建故事",
+    "share": "공유 分享"
   },
   "common": {
     "loading": "加载中...",
     "noData": "暂无数据",
     "error": "发生错误",
-    "retry": "重试",
-    "back": "返回",
-    "save": "保存",
-    "cancel": "取消",
-    "confirm": "确认",
-    "language": "语言",
-    "login": "登录",
-    "signup": "注册",
-    "logout": "退出"
+    "retry": "다시 重试",
+    "back": "뒤로 返回",
+    "save": "저장 保存",
+    "cancel": "취소 取消",
+    "confirm": "확인 确认",
+    "language": "언어 语言",
+    "login": "로그인 登录",
+    "signup": "회원가입 注册",
+    "logout": "로그아웃 退出"
   },
   "consent": {
-    "title": "个人信息收集·使用同意",
-    "required": "必需同意",
-    "optional": "可选同意",
+    "title": "개인정보 수집·이용 동의 个人信息收集同意",
+    "required": "필수 必需",
+    "optional": "선택 可选",
     "nationality": "同意收集国籍信息",
     "language": "同意收集语言信息",
     "interest": "同意收集兴趣信息",
-    "privacyPolicy": "查看隐私政策",
-    "agree": "同意并开始"
+    "privacyPolicy": "개인정보처리방침 隐私政策",
+    "agree": "동의하고 시작 同意并开始"
   }
 }

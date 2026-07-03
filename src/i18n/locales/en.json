@@ -1,82 +1,82 @@
 {
   "app": {
-    "name": "Geosigi",
-    "slogan": "Something you will understand when you get there"
+    "name": "거시기 Geosigi",
+    "slogan": "뭔지는 모르겠는데, 같이 가면 알게 되는 것 — Something you will understand when you get there"
   },
   "tabs": {
-    "settle": "Home",
-    "trust": "Trust",
-    "do": "Do",
-    "people": "People",
-    "story": "Story"
+    "settle": "첫번째집 Home",
+    "trust": "믿을수있어 Trust",
+    "do": "같이해요 Do",
+    "people": "사람들 People",
+    "story": "내이야기 Story"
   },
   "settle": {
-    "title": "Home",
+    "title": "첫번째집 Home",
     "subtitle": "Settlement Guide for Korea",
     "categories": {
-      "housing": "Housing",
-      "essentials": "Essentials",
-      "transport": "Transport",
-      "hospital": "Hospital",
-      "legal": "Legal & Visa",
-      "manners": "Etiquette"
+      "housing": "주거 Housing",
+      "essentials": "생필품 Essentials",
+      "transport": "교통 Transport",
+      "hospital": "병원 Hospital",
+      "legal": "법률·비자 Legal & Visa",
+      "manners": "예의·문화 Etiquette"
     },
-    "chatbot": "Ask AI Chatbot",
+    "chatbot": "AI 챗봇 Ask AI Chatbot",
     "chatPlaceholder": "Ask anything about settling in Korea..."
   },
   "trust": {
-    "title": "Trust",
+    "title": "믿을수있어 Trust",
     "subtitle": "Verified Official Information",
-    "verified": "Officially Verified",
-    "reportScam": "Report to 1345",
-    "warning": "Scam Alert"
+    "verified": "공인 인증 Verified",
+    "reportScam": "1345 신고 Report",
+    "warning": "불법 정보 주의 Scam Alert"
   },
   "do": {
-    "title": "Do",
+    "title": "같이해요 Do",
     "subtitle": "Citizen Science Missions",
-    "missions": "Active Missions",
-    "waterQuality": "Water Quality",
-    "speciesObserve": "Species Observation",
-    "completed": "Completed",
-    "join": "Join",
-    "recentData": "Recent Water Data"
+    "missions": "진행 중인 미션 Active Missions",
+    "waterQuality": "수질 측정 Water Quality",
+    "speciesObserve": "생물 관찰 Species Observation",
+    "completed": "완료 Completed",
+    "join": "참여하기 Join",
+    "recentData": "최신 수질 데이터 Recent Water Data"
   },
   "people": {
-    "title": "People",
+    "title": "사람들 People",
     "subtitle": "Community Connections",
-    "groups": "Community Groups",
-    "chat": "Translated Chat",
-    "nearby": "Nearby Activities"
+    "groups": "시민 모임 Groups",
+    "chat": "번역 채팅 Translated Chat",
+    "nearby": "근처 활동 Nearby"
   },
   "story": {
-    "title": "Story",
+    "title": "내이야기 Story",
     "subtitle": "Activity Records",
-    "myActivities": "My Activities",
-    "createStory": "Create Story",
-    "share": "Share"
+    "myActivities": "나의 활동 My Activities",
+    "createStory": "스토리 만들기 Create Story",
+    "share": "공유 Share"
   },
   "common": {
     "loading": "Loading...",
     "noData": "No data available",
     "error": "An error occurred",
-    "retry": "Retry",
-    "back": "Back",
-    "save": "Save",
-    "cancel": "Cancel",
-    "confirm": "Confirm",
-    "language": "Language",
-    "login": "Log In",
-    "signup": "Sign Up",
-    "logout": "Log Out"
+    "retry": "다시 Retry",
+    "back": "뒤로 Back",
+    "save": "저장 Save",
+    "cancel": "취소 Cancel",
+    "confirm": "확인 Confirm",
+    "language": "언어 Language",
+    "login": "로그인 Log In",
+    "signup": "회원가입 Sign Up",
+    "logout": "로그아웃 Log Out"
   },
   "consent": {
-    "title": "Privacy Consent",
-    "required": "Required",
-    "optional": "Optional",
+    "title": "개인정보 수집·이용 동의 Privacy Consent",
+    "required": "필수 Required",
+    "optional": "선택 Optional",
     "nationality": "I agree to share my nationality",
     "language": "I agree to share my language preferences",
     "interest": "I agree to share my interests",
-    "privacyPolicy": "View Privacy Policy",
-    "agree": "Agree & Start"
+    "privacyPolicy": "개인정보처리방침 Privacy Policy",
+    "agree": "동의하고 시작 Agree & Start"
   }
 }

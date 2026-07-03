@@ -1,82 +1,82 @@
 {
   "app": {
-    "name": "Geosigi",
-    "slogan": "一緒に行けばわかること"
+    "name": "거시기 Geosigi",
+    "slogan": "뭔지는 모르겠는데, 같이 가면 알게 되는 것 — 一緒に行けばわかること"
   },
   "tabs": {
-    "settle": "ホーム",
-    "trust": "信頼",
-    "do": "参加",
-    "people": "人々",
-    "story": "物語"
+    "settle": "첫번째집 ホーム",
+    "trust": "믿을수있어 信頼",
+    "do": "같이해요 参加",
+    "people": "사람들 人々",
+    "story": "내이야기 物語"
   },
   "settle": {
-    "title": "ホーム",
+    "title": "첫번째집 ホーム",
     "subtitle": "韓国定住ガイド",
     "categories": {
-      "housing": "住居",
-      "essentials": "生活必需品",
-      "transport": "交通",
-      "hospital": "病院",
-      "legal": "法律·ビザ",
-      "manners": "マナー·文化"
+      "housing": "주거 住居",
+      "essentials": "생필품 生活必需品",
+      "transport": "교통 交通",
+      "hospital": "병원 病院",
+      "legal": "법률·비자 法律·ビザ",
+      "manners": "예의·문화 マナー·文化"
     },
-    "chatbot": "AIチャットボット",
+    "chatbot": "AI 챗봇 チャットボット",
     "chatPlaceholder": "何でも聞いてください..."
   },
   "trust": {
-    "title": "信頼",
+    "title": "믿을수있어 信頼",
     "subtitle": "公式認証情報",
-    "verified": "公式認証",
-    "reportScam": "1345に通報",
-    "warning": "不正情報に注意"
+    "verified": "공인 인증 公式認証",
+    "reportScam": "1345 신고 通報",
+    "warning": "불법 정보 주의 不正情報に注意"
   },
   "do": {
-    "title": "参加",
+    "title": "같이해요 参加",
     "subtitle": "市民科学ミッション",
-    "missions": "進行中のミッション",
-    "waterQuality": "水質測定",
-    "speciesObserve": "生物観察",
-    "completed": "完了済み",
-    "join": "参加する",
-    "recentData": "最新水質データ"
+    "missions": "진행 중인 미션 進行中のミッション",
+    "waterQuality": "수질 측정 水質測定",
+    "speciesObserve": "생물 관찰 生物観察",
+    "completed": "완료 完了済み",
+    "join": "참여하기 参加する",
+    "recentData": "최신 수질 데이터 最新水質データ"
   },
   "people": {
-    "title": "人々",
+    "title": "사람들 人々",
     "subtitle": "地域コミュニティ",
-    "groups": "コミュニティ",
-    "chat": "翻訳チャット",
-    "nearby": "近くの活動"
+    "groups": "시민 모임 コミュニティ",
+    "chat": "번역 채팅 翻訳チャット",
+    "nearby": "근처 활동 近くの活動"
   },
   "story": {
-    "title": "物語",
+    "title": "내이야기 物語",
     "subtitle": "活動記録",
-    "myActivities": "私の活動",
-    "createStory": "ストーリー作成",
-    "share": "共有"
+    "myActivities": "나의 활동 私の活動",
+    "createStory": "스토리 만들기 ストーリー作成",
+    "share": "공유 共有"
   },
   "common": {
     "loading": "読み込み中...",
     "noData": "データがありません",
     "error": "エラーが発生しました",
-    "retry": "再試行",
-    "back": "戻る",
-    "save": "保存",
-    "cancel": "キャンセル",
-    "confirm": "確認",
-    "language": "言語",
-    "login": "ログイン",
-    "signup": "新規登録",
-    "logout": "ログアウト"
+    "retry": "다시 再試行",
+    "back": "뒤로 戻る",
+    "save": "저장 保存",
+    "cancel": "취소 キャンセル",
+    "confirm": "확인 確認",
+    "language": "언어 言語",
+    "login": "로그인 ログイン",
+    "signup": "회원가입 新規登録",
+    "logout": "로그아웃 ログアウト"
   },
   "consent": {
-    "title": "個人情報の収集・利用に同意",
-    "required": "必須同意",
-    "optional": "任意同意",
+    "title": "개인정보 수집·이용 동의 個人情報の収集·利用同意",
+    "required": "필수 必須",
+    "optional": "선택 任意",
     "nationality": "国籍情報の収集に同意します",
     "language": "言語情報の収集に同意します",
     "interest": "興味情報の収集に同意します",
-    "privacyPolicy": "プライバシーポリシーを見る",
-    "agree": "同意して始める"
+    "privacyPolicy": "개인정보처리방침 プライバシーポリシー",
+    "agree": "동의하고 시작 同意して始める"
   }
 }
