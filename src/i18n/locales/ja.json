@@ -39,7 +39,19 @@
     "speciesObserve": "생물 관찰 生物観察",
     "completed": "완료 完了済み",
     "join": "참여하기 参加する",
-    "recentData": "최신 수질 데이터 最新水質データ"
+    "recentData": "최신 수질 데이터 最新水質データ",
+    "reportTitle": "관찰 제보 観察報告",
+    "reportSuccess": "제보 접수 완료! 送信しました!",
+    "river": "하천 河川",
+    "missionType": "미션 ミッション種類",
+    "speciesName": "생물 이름 生物名",
+    "speciesPlaceholder": "観察した生物名（例：アオサギ）",
+    "observer": "관찰자 観察者（任意）",
+    "observerPlaceholder": "ニックネーム",
+    "memo": "메모 メモ（任意）",
+    "memoPlaceholder": "観察内容を記入してください",
+    "gpsWaiting": "위치 확인 중 位置を取得中...",
+    "submit": "제보하기 送信"
   },
   "people": {
     "title": "사람들 人々",

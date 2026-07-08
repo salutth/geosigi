@@ -39,7 +39,19 @@
     "speciesObserve": "생물 관찰 生物观察",
     "completed": "완료 已完成",
     "join": "참여하기 参加",
-    "recentData": "최신 수질 데이터 最新水质数据"
+    "recentData": "최신 수질 데이터 最新水质数据",
+    "reportTitle": "관찰 제보 观察报告",
+    "reportSuccess": "제보 접수 완료! 提交成功!",
+    "river": "하천 河流",
+    "missionType": "미션 任务类型",
+    "speciesName": "생물 이름 生物名称",
+    "speciesPlaceholder": "观察到的生物名称（例：苍鹭）",
+    "observer": "관찰자 观察者（选填）",
+    "observerPlaceholder": "昵称",
+    "memo": "메모 备注（选填）",
+    "memoPlaceholder": "描述你的观察内容",
+    "gpsWaiting": "위치 확인 중 正在获取位置...",
+    "submit": "제보하기 提交"
   },
   "people": {
     "title": "사람들 认识",

@@ -39,7 +39,19 @@
     "speciesObserve": "생물 관찰",
     "completed": "완료한 미션",
     "join": "참여하기",
-    "recentData": "최신 수질 데이터"
+    "recentData": "최신 수질 데이터",
+    "reportTitle": "관찰 제보",
+    "reportSuccess": "제보가 접수되었습니다!",
+    "river": "하천",
+    "missionType": "미션 종류",
+    "speciesName": "생물 이름",
+    "speciesPlaceholder": "관찰한 생물 이름 (예: 왜가리)",
+    "observer": "관찰자 (선택)",
+    "observerPlaceholder": "닉네임",
+    "memo": "메모 (선택)",
+    "memoPlaceholder": "관찰 내용을 적어주세요",
+    "gpsWaiting": "위치 확인 중...",
+    "submit": "제보하기"
   },
   "people": {
     "title": "사람들",

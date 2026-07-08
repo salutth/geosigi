@@ -1,5 +1,7 @@
+import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useQuery } from '../hooks/useSupabase';
+import { supabase } from '../lib/supabase';
 
 interface Mission {
   id: number;
@@ -38,35 +40,12 @@ const MISSION_ICONS: Record<string, string> = {
   cleanup: '🧹',
 };
 
-const MISSION_LINKS: Record<string, string> = {
-  water_quality: 'https://dorimchun-ai.pages.dev/report',
-  species_observation: 'https://dorimchun-ai.pages.dev/report',
-  invasive_species: 'https://dorimchun-ai.pages.dev/report',
-  cleanup: 'https://dorimchun-ai.pages.dev/mission',
-};
-
 const DEFAULT_MISSIONS: Mission[] = [
   { id: -1, title_ko: '도림천 수질 측정', title_en: 'Dorimcheon Water Quality', mission_type: 'water_quality', river: '도림천', status: 'active' },
-  { id: -2, title_ko: '도림천 생물 관찰', title_en: 'Dorimcheon Species Observation', mission_type: 'species_observation', river: '도림천', status: 'active' },
-  { id: -3, title_ko: '도림천 생태교란종 모니터링', title_en: 'Dorimcheon Invasive Species', mission_type: 'invasive_species', river: '도림천', status: 'active' },
-  { id: -4, title_ko: '안양천 생물 관찰', title_en: 'Anyangcheon Species Observation', mission_type: 'species_observation', river: '안양천', status: 'active' },
-  { id: -5, title_ko: '안양천 생태교란종 모니터링', title_en: 'Anyangcheon Invasive Species', mission_type: 'invasive_species', river: '안양천', status: 'active' },
-  { id: -6, title_ko: '청계천 수질 측정', title_en: 'Cheonggyecheon Water Quality', mission_type: 'water_quality', river: '청계천', status: 'active' },
-  { id: -7, title_ko: '청계천 생물 관찰', title_en: 'Cheonggyecheon Species Observation', mission_type: 'species_observation', river: '청계천', status: 'active' },
-  { id: -8, title_ko: '중랑천 생태교란종 모니터링', title_en: 'Jungnangcheon Invasive Species', mission_type: 'invasive_species', river: '중랑천', status: 'active' },
-  { id: -9, title_ko: '중랑천 생물 관찰', title_en: 'Jungnangcheon Species Observation', mission_type: 'species_observation', river: '중랑천', status: 'active' },
-  { id: -10, title_ko: '탄천 수질 측정', title_en: 'Tancheon Water Quality', mission_type: 'water_quality', river: '탄천', status: 'active' },
-  { id: -11, title_ko: '탄천 생물 관찰', title_en: 'Tancheon Species Observation', mission_type: 'species_observation', river: '탄천', status: 'active' },
-  { id: -12, title_ko: '홍제천 수질 측정', title_en: 'Hongje Stream Water Quality', mission_type: 'water_quality', river: '홍제천', status: 'active' },
-  { id: -13, title_ko: '홍제천 생물 관찰', title_en: 'Hongje Stream Species Observation', mission_type: 'species_observation', river: '홍제천', status: 'active' },
-  { id: -14, title_ko: '양재천 수질 측정', title_en: 'Yangjae Stream Water Quality', mission_type: 'water_quality', river: '양재천', status: 'active' },
-  { id: -15, title_ko: '양재천 생물 관찰', title_en: 'Yangjae Stream Species Observation', mission_type: 'species_observation', river: '양재천', status: 'active' },
-  { id: -16, title_ko: '불광천 수질 측정', title_en: 'Bulgwang Stream Water Quality', mission_type: 'water_quality', river: '불광천', status: 'active' },
-  { id: -17, title_ko: '불광천 생물 관찰', title_en: 'Bulgwang Stream Species Observation', mission_type: 'species_observation', river: '불광천', status: 'active' },
-  { id: -18, title_ko: '우이천 수질 측정', title_en: 'Ui Stream Water Quality', mission_type: 'water_quality', river: '우이천', status: 'active' },
-  { id: -19, title_ko: '우이천 생물 관찰', title_en: 'Ui Stream Species Observation', mission_type: 'species_observation', river: '우이천', status: 'active' },
-  { id: -20, title_ko: '성북천 수질 측정', title_en: 'Seongbuk Stream Water Quality', mission_type: 'water_quality', river: '성북천', status: 'active' },
-  { id: -21, title_ko: '성북천 생물 관찰', title_en: 'Seongbuk Stream Species Observation', mission_type: 'species_observation', river: '성북천', status: 'active' },
+  { id: -2, title_ko: '안양천 생물 관찰', title_en: 'Anyangcheon Species Observation', mission_type: 'species_observation', river: '안양천', status: 'active' },
+  { id: -3, title_ko: '청계천 수질 측정', title_en: 'Cheonggyecheon Water Quality', mission_type: 'water_quality', river: '청계천', status: 'active' },
+  { id: -4, title_ko: '중랑천 생태교란종 모니터링', title_en: 'Jungnangcheon Invasive Species', mission_type: 'invasive_species', river: '중랑천', status: 'active' },
+  { id: -5, title_ko: '탄천 수질 측정', title_en: 'Tancheon Water Quality', mission_type: 'water_quality', river: '탄천', status: 'active' },
 ];
 
 const ALERT_STYLES: Record<string, { icon: string; label: string; color: string }> = {
@@ -81,8 +60,141 @@ function mergeMissions(dbMissions: Mission[], defaults: Mission[]): Mission[] {
   return [...dbMissions, ...extra];
 }
 
+function ReportForm({ mission, onClose, lang }: { mission: Mission; onClose: () => void; lang: string }) {
+  const { t } = useTranslation();
+  const [species, setSpecies] = useState('');
+  const [observer, setObserver] = useState('');
+  const [memo, setMemo] = useState('');
+  const [submitting, setSubmitting] = useState(false);
+  const [result, setResult] = useState<'success' | 'error' | null>(null);
+  const [gps, setGps] = useState<{ lat: number; lng: number } | null>(null);
+
+  useEffect(() => {
+    navigator.geolocation?.getCurrentPosition(
+      pos => setGps({ lat: pos.coords.latitude, lng: pos.coords.longitude }),
+      () => {}
+    );
+  }, []);
+
+  const handleSubmit = async () => {
+    if (!species.trim()) return;
+    setSubmitting(true);
+    try {
+      const row: Record<string, unknown> = {
+        taxon_name: species.trim(),
+        river: mission.river,
+        source: 'geosigi',
+        observer: observer.trim() || null,
+        memo: memo.trim() || null,
+      };
+      if (gps) {
+        row.latitude = gps.lat;
+        row.longitude = gps.lng;
+      }
+      const { error } = await supabase.from('species_observations').insert([row]);
+      setResult(error ? 'error' : 'success');
+    } catch {
+      setResult('error');
+    }
+    setSubmitting(false);
+  };
+
+  if (result === 'success') {
+    return (
+      <div className="report-form-overlay" onClick={onClose}>
+        <div className="report-form" onClick={e => e.stopPropagation()}>
+          <div style={{ textAlign: 'center', padding: '24px 0' }}>
+            <div style={{ fontSize: 48, marginBottom: 12 }}>✅</div>
+            <div style={{ fontSize: 16, fontWeight: 600, marginBottom: 8 }}>{t('do.reportSuccess')}</div>
+            <div style={{ fontSize: 13, color: 'var(--text-dim)', marginBottom: 16 }}>
+              📍 {mission.river} · {species}
+            </div>
+            <button className="submit-btn" onClick={onClose}>{t('common.confirm')}</button>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <div className="report-form-overlay" onClick={onClose}>
+      <div className="report-form" onClick={e => e.stopPropagation()}>
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 16 }}>
+          <h3 style={{ fontSize: 16, fontWeight: 700 }}>
+            {MISSION_ICONS[mission.mission_type] || '🌿'} {t('do.reportTitle')}
+          </h3>
+          <button onClick={onClose} style={{ background: 'none', border: 'none', color: 'var(--text-dim)', fontSize: 20, cursor: 'pointer' }}>✕</button>
+        </div>
+
+        <div className="form-field">
+          <label>{t('do.river')}</label>
+          <div className="form-value">📍 {mission.river}</div>
+        </div>
+
+        <div className="form-field">
+          <label>{t('do.missionType')}</label>
+          <div className="form-value">{lang === 'ko' ? mission.title_ko : (mission.title_en || mission.title_ko)}</div>
+        </div>
+
+        <div className="form-field">
+          <label>{t('do.speciesName')} *</label>
+          <input
+            type="text"
+            className="form-input"
+            value={species}
+            onChange={e => setSpecies(e.target.value)}
+            placeholder={t('do.speciesPlaceholder')}
+          />
+        </div>
+
+        <div className="form-field">
+          <label>{t('do.observer')}</label>
+          <input
+            type="text"
+            className="form-input"
+            value={observer}
+            onChange={e => setObserver(e.target.value)}
+            placeholder={t('do.observerPlaceholder')}
+          />
+        </div>
+
+        <div className="form-field">
+          <label>{t('do.memo')}</label>
+          <textarea
+            className="form-input form-textarea"
+            value={memo}
+            onChange={e => setMemo(e.target.value)}
+            placeholder={t('do.memoPlaceholder')}
+            rows={3}
+          />
+        </div>
+
+        <div className="form-field">
+          <label>GPS</label>
+          <div className="form-value" style={{ fontSize: 12 }}>
+            {gps ? `${gps.lat.toFixed(4)}, ${gps.lng.toFixed(4)}` : t('do.gpsWaiting')}
+          </div>
+        </div>
+
+        {result === 'error' && (
+          <div style={{ color: 'var(--danger)', fontSize: 13, marginBottom: 8 }}>{t('common.error')}</div>
+        )}
+
+        <button
+          className="submit-btn"
+          onClick={handleSubmit}
+          disabled={submitting || !species.trim()}
+        >
+          {submitting ? t('common.loading') : t('do.submit')}
+        </button>
+      </div>
+    </div>
+  );
+}
+
 export default function DoPage() {
   const { t, i18n } = useTranslation();
+  const [activeMission, setActiveMission] = useState<Mission | null>(null);
   const { data: missions, loading: missionsLoading } = useQuery<Mission>('geosigi_missions', {
     eq: { column: 'status', value: 'active' },
     order: { column: 'created_at', ascending: false },
@@ -99,7 +211,6 @@ export default function DoPage() {
 
   const lang = i18n.language;
   const allMissions = mergeMissions(missions, DEFAULT_MISSIONS);
-
   const rivers = [...new Set(allMissions.map(m => m.river))];
 
   return (
@@ -150,13 +261,10 @@ export default function DoPage() {
                 <strong>{lang === 'ko' ? m.title_ko : (m.title_en || m.title_ko)}</strong>
                 <span className="mission-location">📍 {m.river}</span>
               </div>
-              <a
-                href={MISSION_LINKS[m.mission_type] || 'https://dorimchun-ai.pages.dev/report'}
-                target="_blank"
-                rel="noopener noreferrer"
+              <button
                 className="join-btn"
-                style={{ textDecoration: 'none' }}
-              >{t('do.join')}</a>
+                onClick={() => setActiveMission(m)}
+              >{t('do.join')}</button>
             </div>
           ))
         )}
@@ -192,6 +300,14 @@ export default function DoPage() {
       >
         🌊 RiverWatch Dashboard →
       </a>
+
+      {activeMission && (
+        <ReportForm
+          mission={activeMission}
+          onClose={() => setActiveMission(null)}
+          lang={lang}
+        />
+      )}
     </div>
   );
 }

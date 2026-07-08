@@ -39,7 +39,19 @@
     "speciesObserve": "생물 관찰 Observación de especies",
     "completed": "완료 Completadas",
     "join": "참여하기 Participar",
-    "recentData": "최신 수질 데이터 Datos de agua recientes"
+    "recentData": "최신 수질 데이터 Datos de agua recientes",
+    "reportTitle": "관찰 제보 Reportar observación",
+    "reportSuccess": "제보 접수 완료! ¡Enviado con éxito!",
+    "river": "하천 Río",
+    "missionType": "미션 Tipo de misión",
+    "speciesName": "생물 이름 Nombre de especie",
+    "speciesPlaceholder": "Nombre de la especie observada (ej: Garza real)",
+    "observer": "관찰자 Observador (opcional)",
+    "observerPlaceholder": "Apodo",
+    "memo": "메모 Nota (opcional)",
+    "memoPlaceholder": "Describe lo que observaste",
+    "gpsWaiting": "위치 확인 중 Obteniendo ubicación...",
+    "submit": "제보하기 Enviar"
   },
   "people": {
     "title": "사람들 Personas",

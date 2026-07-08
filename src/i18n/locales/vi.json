@@ -39,7 +39,19 @@
     "speciesObserve": "생물 관찰 Quan sát sinh vật",
     "completed": "완료 Đã hoàn thành",
     "join": "참여하기 Tham gia",
-    "recentData": "최신 수질 데이터 Dữ liệu nước mới nhất"
+    "recentData": "최신 수질 데이터 Dữ liệu nước mới nhất",
+    "reportTitle": "관찰 제보 Báo cáo quan sát",
+    "reportSuccess": "제보 접수 완료! Đã gửi thành công!",
+    "river": "하천 Sông",
+    "missionType": "미션 Loại nhiệm vụ",
+    "speciesName": "생물 이름 Tên sinh vật",
+    "speciesPlaceholder": "Tên sinh vật quan sát (ví dụ: Diệc xám)",
+    "observer": "관찰자 Người quan sát (tùy chọn)",
+    "observerPlaceholder": "Biệt danh",
+    "memo": "메모 Ghi chú (tùy chọn)",
+    "memoPlaceholder": "Mô tả những gì bạn đã quan sát",
+    "gpsWaiting": "위치 확인 중 Đang lấy vị trí...",
+    "submit": "제보하기 Gửi"
   },
   "people": {
     "title": "사람들 Mọi người",
